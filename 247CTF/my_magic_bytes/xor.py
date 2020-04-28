@@ -13,6 +13,7 @@ with open('hexoneline', 'r') as f:
 	message = f.read()
 f.close()
 
+# message is the hex signature for a .jpg file
 message = "FFD8FFE000104A4649460001"
 key = "46ccf9a571f0ffb17e41cb84"
 
