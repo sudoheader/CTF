@@ -17,7 +17,6 @@ ENCODINGS = [
 with open('/usr/share/dict/words') as f:
 	WORDS = [line.strip().replace("'", "") for line in f.readlines()]
 
-
 class Challenge():
 	def __init__(self):
 		self.challenge_words = ""
@@ -57,6 +56,4 @@ class Challenge():
 
 		return {"error": "Decoding fail"}
 
-
 listener.start_server(port=13377)
-
