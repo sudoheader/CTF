@@ -50,7 +50,7 @@ Last but not least copy our binary text from `vim` and in CyberChef paste it in 
 
 Here, with a delimiter set to "Space" or "None" we can see the flag.
 
-PS: I througly enjoyed this challenges even with the pitfalls that I encountered!
+PS: I thoroughly enjoyed this challenge even with the pitfalls that I encountered!
 Thanks to the author @Kkevsterrr#7469 for a great Steganography challenge!
 
 Solution:
@@ -62,3 +62,8 @@ So try it out! Otherwise read below for the solution.
 
 Click here for more info: https://gchq.github.io/CyberChef/#recipe=Decode_text('IBM%20EBCDIC%20US-Canada%20(037%20%2B%20Euro%20symbol)%20(1140)'/disabled)Find_/_Replace(%7B'option':'Regex','string':'S%C3%98%C3%B0'%7D,'0',true,false,true,false/disabled)Find_/_Replace(%7B'option':'Regex','string':'S%C3%98%C3%BD'%7D,'0',true,false,true,false/disabled)Find_/_Replace(%7B'option':'Regex','string':'%5C%5C.'%7D,'',true,false,false,false/disabled)From_Binary('Space',8)&input=MDExMDAxMTAKMDExMDExMDAKMDExMDAwMDEKMDExMDAxMTEKMDExMTEwMTEKMDExMDAxMDEKMDAxMTAxMDAKMDExMDAxMDEKMDAxMTAxMDEKMDExMDAwMDEKMDExMDAxMDAKMDAxMTAwMTEKMDAxMTAwMTEKMDExMDAxMDEKMDExMDAwMTAKMDAxMTAwMDEKMDAxMTAxMTAKMDAxMTAxMDAKMDAxMTAwMTAKMDAxMTAxMTAKMDExMDAxMDAKMDAxMTAxMDEKMDAxMTAwMTAKMDExMDAwMTAKMDAxMTEwMDEKMDAxMTAxMDAKMDExMDAxMDEKMDAxMTAwMTEKMDAxMTEwMDEKMDAxMTEwMDAKMDExMDAxMDEKMDAxMTAxMDEKMDAxMTEwMDEKMDAxMTAwMTEKMDAxMTAxMDAKMDAxMTAxMTAKMDAxMTAxMTAKMDExMTExMDE
 
+<details>
+<summary>SPOILER: Flag</summary>
+<br>
+`flag{e4e5ad33eb16426d52b94e398e593466}`
+</details>
